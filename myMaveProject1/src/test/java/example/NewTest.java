@@ -13,7 +13,7 @@ public class NewTest {
         public void testEasy() {    
             driver.get("http://www.guru99.com/selenium-tutorial.html");  
             String title = driver.getTitle(); 
-            System.out.println("The title of page is "+title);
+            System.out.println("The title of page is "+title+"yes");
             Assert.assertTrue(title.contains("Free Selenium Tutorials"));       
         }   
         @BeforeTest
